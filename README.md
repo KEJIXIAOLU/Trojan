@@ -1,4 +1,4 @@
-# 一键搭建Trojan-Go面板，VPS搭建Trojan节点
+# 一键搭建Trojan-Go面板，配合使用CDN+Websocket，免费开启CDN隐藏自己VPS的真实IP，保护VPS永不被墙
 
 ### trojan多用户管理功能
 - 在线web页面和命令行两种方式管理trojan多用户
@@ -19,6 +19,7 @@
 1、VPS一台重置好主流的操作系统（例：Debian10 64）
 
 2、域名一个（已经解析的域名，Win+R输入CMD 回车：键入ping 空格输入你的域名，检查一下是否可以ping通）
+（如果要使用Trojan-Go开启CND隐藏IP功能，需要将域名托管到CDN）
 
 3、下载并安装FinalShell SSH工具
 
