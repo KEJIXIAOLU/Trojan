@@ -95,12 +95,12 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
         "enabled": true,
         "path": "/DFE4545DFDED/",
         "host": "你的域名"
-    },
-    "mux": {
+       },
+        "mux": {
         "enabled": true,
         "concurrency": 8,
         "idle_timeout": 60
-    }
+        }
 
 ### 更改配置参数：
 1、/DFE4545DFDED/为路径，随意填写。
