@@ -77,7 +77,42 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
 
 第一次登陆面板时，会让您输入登陆密码，输入完后请使用用户名‘admin’及您设置的密码登陆。
 
+-----------------------------------
 
+## Trojan-Go 设置
+
+### 登陆面板，修改Trojan类型为Trojan-Go
+
+## 更改Trojan-Go配置文件
+找到VPS目录文件 /usr/local/etc/trojan/config.json ，备份一份（若是把类型切换回来可以恢复使用Trojan）。
+
+对着config.json文件按鼠标右键，选择‘用记事本编辑’。
+
+- 注意：要在mysql的大括号}后加一个英文的逗号。路径和域名需要在客户端匹配。
+
+         "websocket": {
+        "enabled": true,
+        "path": "/DFE4545DFDED/",
+        "host": "你的域名"
+    },
+    "mux": {
+        "enabled": true,
+        "concurrency": 8,
+        "idle_timeout": 60
+    }
+
+### 更改配置参数：
+1、/DFE4545DFDED/为路径，随意填写。
+2、host后 填上你的域名
+
+### 保存后，在Trojan-Go面板重启服务。
+
+## 下载Trojan-Go客户端
+Trojan-QT5 （支持WIN/MACOS）
+因为此Trojan-QT5 项目已经停更，所以只有1.4.0版本的供大家下载。
+https://github.com/V2RaySSR/Trojan_panel_web/releases/tag/trojanqt5
+
+- 如果Windows安装出错，请下载右面的附件： Trojan-Qt5-Windows 压缩包
 
 
 
