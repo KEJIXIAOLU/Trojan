@@ -87,7 +87,7 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
 
 ### 登陆面板，修改Trojan类型为Trojan-Go
 
-<div align=center><img src="https://github.com/KEJIXIAOLU/Trojan/blob/main/%E6%9C%AA%E6%A0%87%E9%A2%981.png" width="300" height="450" /></div>
+<div align=center><img src="https://github.com/KEJIXIAOLU/Trojan/blob/main/%E6%9C%AA%E6%A0%87%E9%A2%981.png"  /></div>
 
 ## 更改Trojan-Go配置文件
 找到VPS目录文件 /usr/local/etc/trojan/config.json ，备份一份（若是把类型切换回来可以恢复使用Trojan）。
@@ -108,6 +108,9 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
         }
 
 ### 更改配置参数：
+
+<div align=center><img src="https://github.com/KEJIXIAOLU/Trojan/blob/main/%E6%9C%AA%E6%A0%87%E9%A2%981.png"  /></div>
+
 1、/DFE4545DFDED/为路径，随意填写。
 2、host后 填上你的域名
 
