@@ -19,7 +19,10 @@
 1、VPS一台重置好主流的操作系统（例：Debian10 64）
 
 2、域名一个（已经解析的域名，Win+R输入CMD 回车：键入ping 空格输入你的域名，检查一下是否可以ping通）
-（如果要使用Trojan-Go开启CND隐藏IP功能，需要将域名托管到CDN）
+
+- 如果要使用Trojan-Go开启CND隐藏IP功能，需要将域名托管到CDN。
+Cloudflare接管域名解析教程：https://youtu.be/1GtDTWybJNM
+
 
 3、下载并安装FinalShell SSH工具
 
@@ -109,11 +112,17 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
 ### 保存后，在Trojan-Go面板重启服务。
 
 ## 下载Trojan-Go客户端
-Trojan-QT5 （支持WIN/MACOS）
+### Trojan-QT5 （支持WIN/MACOS）
 因为此Trojan-QT5 项目已经停更，所以只有1.4.0版本的供大家下载。
+
 https://github.com/V2RaySSR/Trojan_panel_web/releases/tag/trojanqt5
 
-- 如果Windows安装出错，请下载右面的附件： Trojan-Qt5-Windows 压缩包
+- 如果Windows安装出错，请下载右上方的附件： Trojan-Qt5-Windows 压缩包
 
+### QV2RAY（支持WIN/MACOS）
+
+QV2RAY 下载地址：https://github.com/Qv2ray/Qv2ray/releases/
+
+QV2RAY 内核下载地址：https://github.com/v2ray/v2ray-core/releases
 
 
