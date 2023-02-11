@@ -21,12 +21,12 @@
 2、域名一个（已经解析的域名，Win+R输入CMD 回车：键入ping 空格输入你的域名，检查一下是否可以ping通）
 
 - 如果要使用Trojan-Go开启CND隐藏IP功能，需要将域名托管到CDN。
-Cloudflare接管域名解析教程：https://youtu.be/1GtDTWybJNM
+点此>>[Cloudflare接管域名解析教程](https://youtu.be/1GtDTWybJNM)
 
 
 3、下载并安装FinalShell SSH工具
 
-Windows版下载地址: http://www.hostbuf.com/downloads/finalshell_install.exe
+Windows版下载地址:http://www.hostbuf.com/downloads/finalshell_install.exe
 
 macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
 
