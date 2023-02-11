@@ -87,14 +87,14 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
 
 ### 登陆面板，修改Trojan类型为Trojan-Go
 
-<div align=center><img src="https://github.com/KEJIXIAOLU/Trojan/blob/main/%E6%9C%AA%E6%A0%87%E9%A2%981.png"  /></div>
+<div align=center><img src="https://github.com/KEJIXIAOLU/Trojan/blob/main/%E6%9C%AA%E6%A0%87%E9%A2%98-3.jpg"  /></div>
 
 ## 更改Trojan-Go配置文件
 找到VPS目录文件 /usr/local/etc/trojan/config.json ，备份一份（若是把类型切换回来可以恢复使用Trojan）。
 
 对着config.json文件按鼠标右键，选择‘用记事本编辑’。
-
-- 注意：要在mysql的大括号}后加一个英文的逗号。路径和域名需要在客户端匹配。
+## 更改配置参数：
+### *注意：要在mysql的大括号}后加一个英文的逗号。路径和域名需要在客户端匹配。
 
          "websocket": {
         "enabled": true,
@@ -107,7 +107,7 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
         "idle_timeout": 60
         }
 
-### 更改配置参数：
+
 
 <div align=center><img src="https://github.com/KEJIXIAOLU/Trojan/blob/main/%E6%9C%AA%E6%A0%87%E9%A2%981.png"  /></div>
 
@@ -123,6 +123,8 @@ macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
 https://github.com/V2RaySSR/Trojan_panel_web/releases/tag/trojanqt5
 
 - 如果Windows安装出错，请下载右上方的附件： Trojan-Qt5-Windows 压缩包
+
+<div align=center><img src="https://github.com/KEJIXIAOLU/Trojan/blob/main/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png"  /></div>
 
 ### QV2RAY（支持WIN/MACOS）
 
