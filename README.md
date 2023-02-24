@@ -1,5 +1,6 @@
 # 一键搭建Trojan-Go面板，配合使用CDN+Websocket，免费开启CDN隐藏自己VPS的真实IP，保护VPS永不被墙
 
+
 ### trojan多用户管理功能
 - 在线web页面和命令行两种方式管理trojan多用户
 - 启动 / 停止 / 重启 trojan 服务端
@@ -13,7 +14,10 @@
 - 支持转化为clash订阅地址并导入到clash_for_windows(仅限web页面)
 - 限制用户使用期限
 
+一键搭建Trojan-Go教程：https://youtu.be/6SVkVnX8ymY
+
 大神Jrohy的一键脚本支持Trojan-Go，相信在可靠性方面已经十分成熟。既然是一键脚本，我们只要有一台VPS，就可在上面很方便地安装部署。
+
 
 ## 准备工作
 1、VPS一台重置好主流的操作系统（例：Debian10 64）
@@ -133,5 +137,6 @@ https://github.com/V2RaySSR/Trojan_panel_web/releases/tag/trojanqt5
 QV2RAY 下载地址：https://github.com/Qv2ray/Qv2ray/releases/
 
 QV2RAY 内核下载地址：https://github.com/v2ray/v2ray-core/releases
+
 
 
