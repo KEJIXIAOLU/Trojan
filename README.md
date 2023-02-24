@@ -28,9 +28,9 @@
 
 3、下载并安装FinalShell SSH工具
 
-Windows版下载地址:http://www.hostbuf.com/downloads/finalshell_install.exe
+Windows版下载地址:[点此下载](http://www.hostbuf.com/downloads/finalshell_install.exe)
 
-macOS版下载地址: http://www.hostbuf.com/downloads/finalshell_install.pkg
+macOS版下载地址: [点此下载](http://www.hostbuf.com/downloads/finalshell_install.pkg)
 
 ## 搭建Trojan-go面板
 
